@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My About Page</title>
+        <style>
+            body{background-image:url("white_flower.jpg"); font-family:Georgia; font-size:20px;
+            }
+        header{background-image: url("hack_bg.png"); font-size:30pt; text-shadow:5px 3px 5px green;}
+        .aboutme{border: 3px groove white; color:black;}
+        form{display:block; margin:auto; border-radius:32px; border:3px solid pink; height:500px; width:400px;padding:20;
+        }
+        .Aboutme{display:block;}
+    .menu{height:200;
+  width: 300;
+  top:10;
+  left: 10;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+ul{
+  display:none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: red;
+  color: white;
+}
+li a:link{color:white;
+}
+.menu:hover ul{
+display:block;
+color:black;
+padding:8px 16px;
+text-decoration:none;
+background-color: rgba(255,255,255,0.7);
+list-style-type: none;
+  margin: 0;
+  width:200px;
+  height:150px;
+  font-family: georgia;
+  position: absolute;
+  text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 15pt;
+}
+footer{display:block;}
+        </style>
+           <header id="home" class="home" style="color:white; background-color:green">Ahmad Abdullahi
+           <svg height=100px width=100px> <circle r=50 cx=50 cy=50 fill="white"/>
+           <circle r=30 cx=80 cy=50 fill=black/>
+               </svg>
+           </header>
+       <nav id="menu">
+           <div class="menu">
+               <span style="background-color:green; font-size:20pt">&#9776MENU</span>
+           <ul>
+               <li>&#9755 <a class="active" href="#home">home</a></li>
+               <li>&#9755 <a href="#Aboutme">About Me</a></li>
+               <li>&#9755 <a href="#contact">Contact Me</a></li>
+           </ul>
+           </div>
+       </nav>
+    </head>
+    
+    <body>
+     <!-- About Me section start --><article>
+        <div id="Aboutme">
+            <h1 class="aboutme" align="center"><span class="Aboutme">&#9958About Me&#9958</span></h1>
+            <p>
+                Hey! I'm <strong>Ahmad</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i>  and a way to communicate with others on a technical level. And I learned it all through <strong>determination</strong> and <strong>dedication</strong>. I joined many <b>coding communities  and groups</b> on <i>Social Media and Internet</i> where I build my self-esteem and keep motivated.
+            </p>
+            <p>I am my way to become a <strong>Web Developer</strong> and use my coding skills to get a better job.
+            </p>
+            <p class="quote">"Declare variables, not war"</p>
+    </article>
+        </div>
+        <!-- About Me section end -->
+
+                <!--Form section start -->
+       <div id="contact">
+            <h1><span>Contact Me</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="yellow"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="black"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="red" />
+            </svg>
+                 <!--Form section start-->
+            <form border=2 align="left" action="mailto:ahmaduabdulllahi460@gmail.com"> <caption><h1 style="text-transform:capitalize">Enter your Contact info</h1></h1></caption><label>Enter your name</label><br/>
+                <input name="name" placeholder= "name" type="text" required /><br/>
+                <label>your email address</label>
+                <br/>
+            <input name="email" placeholder="email@example.com" type="email" required /><br/><label>message</label><br/>
+                <textarea style="height:100px; width:200px" name="message" placeholder="Message" required ></textarea></br>
+                <input style="color:white; background-color:green" type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+<!-- follow me section start -->
+        <section style="color:blue">
+            <h1 style="border:2px groove green"><span>Follow Me</span></h1>
+            <div>
+                <a href="https://www.sololearn.com/" target="_blank">
+                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                </a>
+                <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="#">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                </a>
+            </div>
+            </section>
+            <!-- Follow me section end -->
+   <footer style="background-color:grey">
+       <ul>
+           <li>privacy</li>
+           <li>about me</li>
+           <li>copyright@Ahm-tech 2020</li>
+       </ul>
+   </footer>
+    </body>
+</html>
